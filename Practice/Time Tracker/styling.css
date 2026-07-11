@@ -1,0 +1,128 @@
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 30px;
+    align-items: start;
+    background: #0C1323;
+    border-radius: 20px;
+    color: white;
+}
+.Profile_image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+.Profile_card{
+    background-color: #1E204C;
+    border-radius: 15px;
+    overflow: hidden;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.profile-top{
+    background-color: #5847EA;
+    padding: 30px 20px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.profile-top h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.profile-bottom{
+    background-color: #1E204C;
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-bottom p{
+    color: #6F76C8;
+    font-size: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.profile-bottom p:hover{
+    color: white;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Menu{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+.button:hover{
+    background: blue;
+}
+.Criteria{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    padding: 20px;
+}
+.card-content{
+    background-color: #1E204C;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.Work_card{
+    background-color: hsl(15, 100%, 70%);
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.Play_card{
+    background-color: #56C2E4;
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.Study_card{
+    background-color: #FE5E7D;
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.Exercise_card{
+    background-color: #4DCF81;
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.Social_card{
+    background-color: #7335D1;
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.Self_care_card{
+    background-color: #F1C75A;
+    background-repeat: no-repeat;
+    background-position: top right 1rem;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
