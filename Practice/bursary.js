@@ -10,5 +10,6 @@ function Bursary(course, ward) {
         console.log(`You get no bursary`)
     }
 }
+//function to provide input space and read from input
 Bursary("computerscience", "Chuka");
 
