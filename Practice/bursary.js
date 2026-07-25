@@ -10,10 +10,5 @@ function Bursary(course, ward) {
         console.log(`You get no bursary`)
     }
 }
-
-function getUserInput(){
-    //asks the user for inputs via prompts
-    //const 
-}
 Bursary("computerscience", "Chuka");
 
