@@ -13,7 +13,7 @@ function Bursary(course, ward) {
 
 function getUserInput(){
     //asks the user for inputs via prompts
-    //const 
+    //const
 }
 Bursary("computerscience", "Chuka");
 
