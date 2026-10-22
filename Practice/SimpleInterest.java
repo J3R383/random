@@ -1,6 +1,6 @@
-import java.uti.Scanner;
+import java.util.Scanner;
 public class SimpleInterest{
-public static void main{String[]args}{
+public static void main(String[]args){
     Scanner in = new Scanner(System.in);
     System.out.print("Enter Principal, Rate and Time: ");
     double p = in.nextDouble();
